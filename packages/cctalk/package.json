@@ -1,8 +1,0 @@
-{
-  "name": "parser-cctalk",
-  "version": "1.0.0",
-  "main": "regex.js",
-  "dependencies": {
-    "safe-buffer": "^5.1.1"
-  }
-}

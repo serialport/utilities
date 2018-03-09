@@ -1,6 +1,10 @@
 {
 	"devDependencies": {
-		"lerna": "^2.9.0",
-		"sinon": "^4.4.2"
-	}
+		"lerna": "^2.9.0"
+	},
+	"license": "MIT",
+	"repository": {
+    "type": "git",
+    "url": "git://github.com/node-serialport/parsers.git"
+  }
 }

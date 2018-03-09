@@ -1,5 +1,5 @@
 {
-  "name": "parser-byte-length",
+  "name": "parser-cctalk",
   "version": "0.0.1",
   "main": "regex.js",
   "dependencies": {
