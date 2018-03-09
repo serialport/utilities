@@ -1,4 +1,8 @@
 {
   "name": "parser-delimiter",
-  "main": "regex.js"
+  "main": "regex.js",
+  "version": "1.0.0",
+  "dependencies": {
+    "safe-buffer": "^5.1.1"
+  }
 }

@@ -1,5 +1,6 @@
 {
 	"devDependencies": {
-		"lerna": "^2.9.0"
+		"lerna": "^2.9.0",
+		"sinon": "^4.4.2"
 	}
 }

@@ -3,7 +3,7 @@
 
 const Buffer = require('safe-buffer').Buffer;
 const sinon = require('sinon');
-const CCTalkParser = require('../lib/parsers/cctalk');
+const CCTalkParser = require('./cctalk');
 
 describe('CCTalkParser', () => {
   it('emits data for a default length message', () => {

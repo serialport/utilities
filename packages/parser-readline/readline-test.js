@@ -4,7 +4,7 @@
 const Buffer = require('safe-buffer').Buffer;
 const sinon = require('sinon');
 
-const ReadlineParser = require('../lib/parsers/readline');
+const ReadlineParser = require('./readline');
 
 describe('ReadlineParser', () => {
   it('transforms data to strings split on a delimiter', () => {
