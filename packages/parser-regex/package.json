@@ -1,0 +1,4 @@
+{
+  "name": "parser-regex",
+  "main": "regex.js"
+}
