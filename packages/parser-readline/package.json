@@ -1,9 +1,9 @@
 {
   "name": "parser-readline",
   "main": "readline.js",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "dependencies": {
-    "parser-delimiter": "^0.0.2",
+    "parser-delimiter": "^1.0.0",
     "safe-buffer": "^5.1.1"
   },
   "license": "MIT",

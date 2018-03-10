@@ -1,6 +1,6 @@
 {
   "name": "parser-cctalk",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "main": "cctalk.js",
   "dependencies": {
     "safe-buffer": "^5.1.1"
