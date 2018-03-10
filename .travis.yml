@@ -15,7 +15,7 @@ install:
 - npm install
 
 script:
-- lerna exec node ./
+- npm run exec-test
 - npm run lint
 - npm run test
 

@@ -1,5 +1,6 @@
 {
 	"scripts": {
+		"exec-test": "lerna exec node ./",
 		"lint": "standard --env mocha",
 		"test": "mocha"
 	},
