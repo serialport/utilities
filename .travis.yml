@@ -15,6 +15,7 @@ install:
 - npm install
 
 script:
+- npm lint
 - npm test
 
 after_success:

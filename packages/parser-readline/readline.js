@@ -1,6 +1,6 @@
-'use strict';
-const Buffer = require('safe-buffer').Buffer;
-const DelimiterParser = require('parser-delimiter');
+'use strict'
+const Buffer = require('safe-buffer').Buffer
+const DelimiterParser = require('parser-delimiter')
 /**
  *  A transform stream that emits data after a newline delimiter is received.
  *
@@ -14,18 +14,18 @@ const parser = port.pipe(new Readline({ delimiter: '\r\n' }));
 parser.on('data', console.log);
 */
 class ReadLineParser extends DelimiterParser {
-  constructor(options) {
+  constructor (options) {
     const opts = Object.assign({
       delimiter: Buffer.from('\n', 'utf8'),
       encoding: 'utf8'
-    }, options);
+    }, options)
 
     if (typeof opts.delimiter === 'string') {
-      opts.delimiter = Buffer.from(opts.delimiter, opts.encoding);
+      opts.delimiter = Buffer.from(opts.delimiter, opts.encoding)
     }
 
-    super(opts);
+    super(opts)
   }
 };
 
-module.exports = ReadLineParser;
+module.exports = ReadLineParser
