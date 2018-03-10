@@ -4,7 +4,7 @@
 	"scripts": {
 		"docs": "jsdoc -c ./.jsdoc.json ",
 		"exec-test": "lerna exec node ./",
-		"lint": "standard --env mocha",
+		"lint": "standard --env mocha packages",
 		"test": "mocha"
 	},
 	"license": "MIT",
