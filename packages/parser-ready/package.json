@@ -1,6 +1,6 @@
 {
   "name": "parser-ready",
-  "main": "regex.js",
+  "main": "ready.js",
   "version": "0.0.2",
   "dependencies": {
     "safe-buffer": "^5.1.1"
