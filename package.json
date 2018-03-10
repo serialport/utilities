@@ -1,6 +1,8 @@
 {
+	"name": "serialport-parsers",
+	"private": true,
 	"scripts": {
-    "docs": "jsdoc -c ./.jsdoc.json ",
+		"docs": "jsdoc -c ./.jsdoc.json ",
 		"exec-test": "lerna exec node ./",
 		"lint": "standard --env mocha",
 		"test": "mocha"
@@ -19,7 +21,9 @@
 		"sinon": "^4.4.2",
 		"standard": "^11.0.0"
 	},
-  "standard": {
-    "globals": [ "assert" ]
-  }
+	"standard": {
+		"globals": [
+			"assert"
+		]
+	}
 }

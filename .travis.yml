@@ -13,7 +13,7 @@ before_install:
 
 install:
 - npm install
-
+- ./node_modules/.bin/lerna bootstrap
 script:
 - npm run exec-test
 - npm run lint
